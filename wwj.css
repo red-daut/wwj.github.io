@@ -71,7 +71,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* added to make rotate */
 .rotate {
-  animation:  spin 10s infinite linear ;
+  animation: spin 10s infinite linear ;
 
 }
 
