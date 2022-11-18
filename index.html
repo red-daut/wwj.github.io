@@ -94,15 +94,15 @@
 
     float rn = noise( vec2(uv.x, u_time / waveSpeed));
     float ry = uv.y - rn;
-    float r = smoothstep(0.09, 0.09, ry);
+    float r = smoothstep(wMin, wMax, ry);
     
     float bn = noise( vec2(uv.x, u_time / waveSpeed - waveOffset));
     float by = uv.y - bn;
-    float b = smoothstep(0.80, 0.80, by);
+    float b = smoothstep(wMin, wMax, by);
     
     float gn = noise( vec2(uv.x, u_time / waveSpeed + waveOffset));
     float gy = uv.y - gn;
-    float g = smoothstep(0.61, 0.61, gy);
+    float g = smoothstep(wMin, wMax, gy);
     
     //float a = (r + g + b) / 3.0;
     
@@ -116,13 +116,13 @@
 
 <div align="center">
   
-  <div class="animate-flicker">
-   <p>
-    <img src="images/blue_album_pin.png" width="300" height="300" class="rotate"  />
-   </p>
-  </div>
- 
+ <div class="animate-flicker">
+  <p>
+   <img src="images/blue_album_pin.png" width="300" height="300" class="rotate"  />
+  </p>
  </div>
+
+</div>
 
 
 <audio loop src="audio/wwj_trimmed.mp3" type="audio/mpeg"></audio>
