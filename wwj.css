@@ -68,6 +68,11 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	line-height: 0px;
 }
 
+.rotation-pos {
+  position: absolute;
+  top:10px
+
+}
 
 /* added to make rotate */
 .rotate {
