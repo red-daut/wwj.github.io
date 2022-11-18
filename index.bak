@@ -2,13 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Wrestle With Jimmy</title>
+<title>Wrestle With Jimmy!</title>
 <link href="wwj.css" rel="stylesheet" type="text/css" />
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<!--responsive stuff added here-->
 
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,37 +13,21 @@
 
 </head>
 
-
-
 <body>
 <div align="center">
   <p><br />
   </p>
   
-  
-  
   <p><img src="images/wwj_logo.png" width="1199" height="217" alt="Wrestle With Jimmy" longdesc="http://wrestle-with-jimmy.com" /></p>
 </div>
+
 <div align="center">
 
-
-
-
-
-
-  
-  <!--z stuff here -->
-  
    <div class="animate-flicker">
   <p><img src="images/blue_album_pin.png" class="rotate thefade"  /></p>
 </div>
 
-
 </div>
-
-
-<!--Z stuff here -->
-
 
 <audio loop src="audio/wwj.mp3" type="audio/mpeg"></audio>
 <button id="button">
