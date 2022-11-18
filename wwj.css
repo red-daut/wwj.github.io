@@ -70,10 +70,10 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .rotation-pos {
   position: absolute;
-  top:30px;
+  top:70px;
   left:500px;
   right:500px;
-  bottom:10px; 
+  bottom:70px; 
 }
 
 /* added to make rotate */
